@@ -1,0 +1,26 @@
+{
+  "name": "chatting-backend",
+  "version": "1.0.0",
+  "description": "web chat",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdelrahman mosa",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.6.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "fast-json-stringify": "^5.5.0",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "socket.io": "^4.6.0",
+    "uuidv4": "^6.2.13"
+  }
+}

@@ -1,0 +1,78 @@
+.main-app{
+  background-color: rgb(27, 27, 27);
+  width:100%;
+  height:100vh;
+  overflow-y: scroll;
+  color: white;
+}
+.row{
+  margin:0px !important;
+  padding:0px;
+}
+
+.main-app div {
+  color: white;
+}
+
+.card-post{
+  padding:20px 0px;
+  background-color: rgb(46, 46, 46);
+  color: white;
+  margin:20px 0px !important;
+  border:1px groove rgb(82, 82, 82);
+  border-radius:10px;
+  padding-bottom:5px;
+}
+
+.stand-btn{
+  background-color: rgb(226, 43, 171);
+  padding:5px 10px;
+  width:60%;
+  border-radius:10px;
+  color: white;
+  border: none;
+}
+.stand-btn:hover{
+  background-color:rgb(185, 36, 140) ;
+}
+
+
+.action-post-btn{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgb(150, 150, 150);
+  cursor: pointer;
+}
+
+.profile-image{
+  width:100%;
+  height:50px;
+  border-radius:10px;
+  overflow: hidden;
+  cursor: pointer;
+  }
+  
+  .profile-image img{
+      object-fit: cover;
+  }
+
+  .time-display{
+    margin-left:10px;
+    color: lightgray;
+    font-size:15px;
+    font-style: italic;
+
+}
+
+.image-upload-icon:hover{
+  color: crimson;
+  cursor: pointer;
+}
+
+.spinner-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50vh;
+}

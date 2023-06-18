@@ -1,0 +1,20 @@
+.main-header-home{
+    background-color: rgb(46, 46, 46);
+    border-bottom:1px groove rgb(82, 82, 82);
+}
+
+.main-title-header{
+    text-align: center;
+    padding:5px;
+}
+
+.main-title-header h1 {
+    color: crimson;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.main-title-header h1:hover{
+    color: rgb(148, 12, 39);
+}
+

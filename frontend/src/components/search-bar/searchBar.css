@@ -1,0 +1,81 @@
+.search-container{
+    padding:5px 0px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin:20px 10px !important;
+    border:1px groove rgb(82, 82, 82);
+    border-radius:10px;
+}
+
+.search-box{
+    display: flex;
+    padding:10px;
+}
+
+
+.search-icon , .search-close{
+    cursor: pointer;
+    text-align: center;
+    width:10%;
+}
+
+.search-icon span {
+    font-size:15px !important;
+}
+
+.search-input{
+    width:80%;
+}
+.search-input input{
+    width:100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: gray;
+    font-size:20px;
+}
+
+.search-results{
+    border-top:1px groove rgb(82, 82, 82);
+    padding:10px;
+    max-height:500px;
+    overflow-y: auto;
+    /* text-align: center; */
+}
+
+.card-search {
+cursor: pointer;
+padding:5px !important;
+}
+.card-search :hover{
+    background-color: rgb(44, 44, 44);
+    transition: .2s ease-in-out;
+}
+
+.card-search p , .card-search h6 {
+    color: gray;
+    font-size:12px;
+}
+
+.card-search h6{
+    font-weight: bold;
+    font-size:16px;
+}
+
+.result-search , .search-card-icon{
+    display: flex;
+    width:100%;
+     align-items: center;
+}
+.result-search span{
+   
+    border:1px solid gray;
+    padding:2px;
+    border-radius:5px;
+    color: gray;
+}
+
+.search-card-icon {
+    color: gray !important;
+    font-size:20px;
+}

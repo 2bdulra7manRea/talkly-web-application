@@ -1,0 +1,22 @@
+.comment-box-input{
+    border:1px groove rgb(82, 82, 82);
+    border-radius:10px;
+    padding:20px;
+}
+.comment-box-input:focus-within{
+    border:1px groove rgb(122, 122, 122);   
+}
+
+.input-comment textarea {
+    width:100%;
+    background-color: transparent;
+    color:lightgray;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.create-comment{
+    padding-top:40px;
+    border-top:1px groove rgb(82, 82, 82);
+}

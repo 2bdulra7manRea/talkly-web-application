@@ -1,0 +1,9 @@
+.blog-card{
+    width:250px;
+    height:250px;
+    cursor: pointer;
+}
+.blog-content-post{
+    height:40%;
+    overflow: hidden;
+}

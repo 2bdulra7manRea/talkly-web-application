@@ -1,0 +1,35 @@
+.new-post{
+padding:10px;
+background-color: rgb(46, 46, 46);
+border: 1px groove rgb(46, 46, 46);
+}
+
+.new-post textarea{
+    width:100%;
+    background-color: transparent;
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.create-events{
+    color: white !important;
+}
+
+.select-time-for-event{
+    color: white !important;
+    border-color: white !important;
+    padding:10px;
+    margin:10px 0px;
+}
+
+.select-time-for-event .css-xlkdtz-MuiInputBase-root-MuiInput-root{
+    color: white !important;
+}
+
+.select-time-for-event .css-1x51dt5-MuiInputBase-input-MuiInput-input{
+    color: white !important;
+}

@@ -1,0 +1,44 @@
+.new-post{
+padding:10px;
+background-color: rgb(46, 46, 46);
+border: 1px groove rgb(46, 46, 46);
+}
+
+.new-post textarea{
+    width:100%;
+    background-color: transparent;
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.add-icon-post{
+    display: flex;
+    justify-content: right;
+}
+
+.add-icon-post span {
+    background-color: rgb(37, 37, 37);
+    border-radius:10px;
+    align-items: center;
+    display: flex;
+    padding:10px;
+}
+.header-add-post{
+    margin:10px 0px;
+    padding:5px !important;
+    cursor: pointer;
+}
+
+.start-post{
+    display: table;
+     width:100%
+}
+.start-post h6 {
+    color: gray;
+    display: table-cell;
+     vertical-align: middle;
+}

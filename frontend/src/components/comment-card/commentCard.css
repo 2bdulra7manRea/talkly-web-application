@@ -1,0 +1,11 @@
+.comment-actions-right{
+display: flex;
+flex-direction:column;
+justify-content: space-between;
+align-items:flex-end;
+
+}
+.comment-card{
+    background-color: transparent;
+}
+

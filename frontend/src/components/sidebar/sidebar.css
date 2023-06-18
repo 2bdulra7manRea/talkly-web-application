@@ -1,0 +1,38 @@
+.sidebar{
+    background-color: rgb(46, 46, 46);
+    width:100%;
+    height:100%;
+    padding:20px 0px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+
+.sidebar h6{
+    color: white;
+}
+
+.sidebar ul li {
+    margin:8px 0px;
+}
+
+.sidebar span{
+    padding:0px 10px;
+}
+
+.sidebar ul li a {
+    text-decoration:none;
+    color: white;
+    display: block;
+    padding:3px 0px;
+}
+.sidebar ul li .current-item-sidebar{
+    background-color: crimson !important;
+}
+.sidebar ul li a:hover{
+    background-color: rgb(65, 65, 65);
+}
+

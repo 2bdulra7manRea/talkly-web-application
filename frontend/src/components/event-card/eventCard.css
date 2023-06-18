@@ -1,0 +1,13 @@
+.btn-box-event{
+align-items: center;
+display: flex;
+}
+
+.event-card{
+    cursor: pointer;
+}
+
+.time-event{
+   background-color: rgb(31, 31, 31);
+   text-align: center;
+}

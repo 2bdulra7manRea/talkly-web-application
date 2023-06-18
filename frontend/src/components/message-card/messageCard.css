@@ -1,0 +1,29 @@
+.message-card{
+    margin:5px 0px;
+}
+
+.message-card .message-content{
+    display: inline-block;
+    border:1px groove rgb(83, 83, 83);
+    background-color: rgb(46, 46, 46);
+    border-radius:10px;
+    padding:5px;
+    padding-bottom:1px !important;
+}
+.message-content{
+    padding-left:15px !important;
+    padding-right:15px !important;
+}
+.flexing{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header-message{
+    display: flex;
+
+}
+
+.header-message h6{
+margin-right:10px;
+}
